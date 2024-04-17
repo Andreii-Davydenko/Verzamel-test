@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; img-src https://verzamelsysteem.nl">
+    <link rel="stylesheet" href="./vendor/rsuite.min.css">
+    <link rel="stylesheet" href="./vendor/hint.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>VerzamelSysteem</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script src="./vendor/dayjs.min.js"></script>
+  <script src="./vendor/i18next.min.js"></script>
+  <script src="./vendor/react.min.js"></script>
+  <script src="./vendor/react-dom.min.js"></script>
+  <script src="./vendor/react-i18next.min.js"></script>
+  <script src="./vendor/rsuite.min.js"></script>
+  <script src="./vendor/icons.min.js"></script>
+  <script src="./translations/en.js"></script>
+  <script src="./translations/nl.js"></script>
+  <script src="./i18n.js"></script>
+  <script src="./modals/add-website.js"></script>
+  <script src="./modals/edit-website.js"></script>
+  <script src="./modals/handle-2fa.js"></script>
+  <script src="./modals/handle-update.js"></script>
+  <script src="controls.js"></script>
+  <script src="navigation.js"></script>
+  <script src="./views/websites.js"></script>
+  <script src="./views/invoices.js"></script>
+  <script src="./views/settings.js"></script>
+  <script src="app.js"></script>
+</html>

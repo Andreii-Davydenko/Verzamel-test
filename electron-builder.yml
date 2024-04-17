@@ -1,0 +1,20 @@
+appId: com.internetpreneur.verzamelsysteem
+mac:
+  notarize:
+    teamId: J7J8R7G8GK
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  entitlements: entitlements.mac.plist
+  entitlementsInherit: entitlements.mac.plist
+nsis:
+  oneClick: false
+  perMachine: true
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: true
+publish:
+  provider: spaces
+  name: verzamel-systeem-updates
+  region: ams3
+  acl: public-read
+# afterSign: notarize.js
+icon: icons

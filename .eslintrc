@@ -1,0 +1,28 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "es2022": true,
+    "node": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022
+  },
+  "rules": {
+    "import/extensions": "off",
+    "class-methods-use-this": "off",
+    "linebreak-style": ["error", "windows"],
+    "no-underscore-dangle": "off",
+    "no-await-in-loop": "off"
+  },
+  "globals": {
+    "React": true,
+    "ReactDOM": true,
+    "rsuite": true,
+    "icons": true,
+    "i18next": true,
+    "ReactI18next": true,
+    "dayjs": true,
+    "dayjsCustomParseFormat": true
+  }
+}

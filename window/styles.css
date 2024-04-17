@@ -1,0 +1,211 @@
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 64px);
+    background-color: var(--rs-sidenav-default-bg);
+}
+
+.main-nav .rs-sidenav-item-active {
+    color: var(--rs-gray-800) !important;
+    background-color: var(--rs-gray-300);
+}
+
+.main-nav .rs-sidenav-item {
+    padding-left: 30px;
+}
+
+.main-nav .rs-sidenav-item>.anticon {
+    margin-right: 10px;
+}
+
+.main-controls {
+    padding: 15px;
+    background-color: var(--rs-gray-300);
+}
+
+.download-select-option,
+.main-controls-right button:not(:last-child) {
+    margin-right: 15px;
+}
+
+.home-btn {
+    margin-right: 15px;
+}
+
+.download-select-option,
+.lang-picker .rs-picker-toggle.rs-btn {
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.nav-header {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.anticon {
+    width: 16px;
+    height: 16px;
+}
+
+.rs-table {
+    min-width: 100%;
+}
+
+.rs-table-header-row-wrapper {
+    font-size: 14px;
+}
+
+.rs-table-cell-content {
+    padding: 8px 10px;
+}
+
+.rs-table-hover .rs-table-row:hover .rs-table-cell,
+.rs-table-hover .rs-table-row:hover .rs-table-cell-group,
+.rs-table-hover .rs-table-row:not(.rs-table-row-header):hover {
+    background-color: var(--rs-gray-100);
+}
+
+.rs-input:focus,
+.rs-input:hover:not(:disabled) {
+    border-color: var(--rs-gray-500);
+}
+
+.rs-input:focus {
+    outline: 3px solid var(--rs-gray-50);
+}
+
+.rs-picker:not(.rs-picker-disabled):hover,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover {
+    border-color: var(--rs-gray-500) !important;
+}
+
+.rs-picker-select-menu-item.rs-picker-select-menu-item-focus,
+.rs-picker-select-menu-item:focus,
+.rs-picker-select-menu-item:hover {
+    background-color: var(--rs-gray-50) !important;
+    color: var(--rs-text-primary) !important;
+}
+
+.rs-picker-toggle-active,
+.rs-picker.rs-picker-focused {
+    box-shadow: 0 0 0 3px rgba(247, 247, 250, 0.25);
+}
+
+.rs-picker.rs-picker-focused {
+    border-color: var(--rs-gray-500) !important;
+}
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+    color: var(--rs-text-primary);
+}
+
+.rs-picker-input {
+    min-width: 300px;
+}
+
+.rs-table-cell-header-icon-sort {
+    color: var(--rs-text-secondary);
+}
+
+.rs-table-cell-header-sort-wrapper {
+    position: relative;
+    top: 3px;
+}
+
+.rs-table-column-resize-spanner:before {
+    border-color: transparent var(--rs-text-secondary) transparent transparent;
+}
+
+.rs-table-column-resize-spanner:after {
+    border-color: transparent transparent transparent var(--rs-text-secondary);
+}
+
+.rs-table:not(.rs-table-column-resizing) .rs-table-cell-header .rs-table-cell:hover~.rs-table-column-resize-spanner,
+.rs-table:not(.rs-table-column-resizing) .rs-table-column-resize-spanner:hover {
+    background-color: var(--rs-text-secondary);
+}
+
+.settings {
+    padding: 10px 20px;
+}
+
+.demo-input {
+    color: var(--rs-text-primary) !important;
+}
+
+.app-content {
+    position: relative;
+}
+
+.date-format-picker {
+    display: block;
+}
+
+.invoice-daterange-picker {
+    min-width: 204px;
+    margin-right: 15px;
+}
+
+.invoice-daterange-picker .rs-picker-toggle.rs-btn {
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.invoice-daterange-picker .rs-picker-toggle-clean,
+.invoice-daterange-picker .rs-picker-toggle-caret {
+    top: 6px !important;
+}
+
+.provider-badge {
+    margin-right: 10px;
+}
+
+.fa-provider-badge-container,
+.err-badge-container {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    top: 2.5px
+}
+
+*[tooltip] {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin: 0 -75px;
+}
+
+*[tooltip]:hover:before {
+    content: attr(tooltip);
+    background-color: var(--rs-gray-800);
+    color: #fff;
+    top: 0px;
+    left: 20px;
+    position: absolute;
+    white-space: nowrap;
+    width: 150px;
+}
+
+.btn-cell {
+    overflow: visible !important;
+}
+
+.btn-cell .rs-table-cell-content {
+    overflow: visible !important;
+}
+
+.toggle-named {
+    margin-right: 10px;
+}
+
+.reset-email-list,
+.current-version {
+    margin-left: 10px;
+}

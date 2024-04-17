@@ -1,0 +1,17 @@
+appId: com.internetpreneur.verzamelsysteem
+mac:
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  entitlements: entitlements.mac.plist
+  entitlementsInherit: entitlements.mac.plist
+nsis:
+  oneClick: false
+  perMachine: true
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: true
+publish:
+  provider: spaces
+  name: verzamel-systeem-updates
+  region: ams3
+  acl: public-read
+icon: icons
